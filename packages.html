@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dreamscape Travel Co. - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>   
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="packages.html">Our packages</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <header>
+        <h1>Best Destinations To Explore with Us</h1>
+    </header>
+    <div class="package">
+        <h3>Paris, France</h3>
+        <p>Experience the romance of Paris with a 5-day luxury stay.</p>
+        <button onclick="bookNow('Paris, France')">Book Now</button>
+    </div>
+    <div class="package">
+        <h3>Bali, Indonesia</h3>
+        <p>Relax on the stunning beaches of Bali with our exclusive package.</p>
+        <button onclick="bookNow('Bali, Indonesia')">Book Now</button>
+    </div>
+    <div class="package">      
+        <h3>New York, USA</h3>
+        <p>Explore the city that never sleeps with a 7-day tour.</p>
+        <button onclick="bookNow('New York, USA')">Book Now</button>
+    </div>
+    <div class="package">          
+        <h3>Singapore</h3>
+        <p>From the city's stunning skyline to iconic landmarks explore a jam-packed package at Singapore with iconic attractions.</p>
+        <button onclick="bookNow('Singapore')">Book Now</button>
+    </div>
+    <div class="package">          
+        <h3>The Colosseum, Rome</h3>
+        <p>Wander through Rome's ancient streets, tour the colosseum, plan a trip to other areas of Italy with us.</p>
+        <button onclick="bookNow('The Colosseum, Rome')">Book Now</button>
+    </div>
+    <div class="package">          
+        <h3>Machu Picchu, Peru</h3>
+        <p>Set on a high plateau with soaring green mountains, the setting is surreal.</p>
+        <button onclick="bookNow('Machu Picchu, Peru')">Book Now</button>
+    </div>
+    <div class="package">          
+        <h3>Great Wall of China</h3>
+        <p>A stroll along the top of the wall provides an incredible view of the structure snaking off into the distance.</p>
+        <button onclick="bookNow('Great Wall of China')">Book Now</button>
+    </div>
+    <div class="package">          
+        <h3>Eiffel Tower, Paris</h3>
+        <p>Head up the tower for spectacular views over the city, and don't miss a chance to see the tower lit up at night.</p>
+        <button onclick="bookNow('Eiffel Tower, Paris')">Book Now</button>
+    </div>
+    <footer>
+        <p>&copy; 2025 Travel Agency. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function bookNow(destination) {
+            alert("You have selected the " + destination + " package. Please provide us with your contact details");
+            window.location.href="contact.html";
+        }
+    </script>
+
+</body>
+</html>
